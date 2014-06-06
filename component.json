@@ -5,12 +5,21 @@
   "repo": "jonnor/noflo-3dprint",
   "version": "0.0.1",
   "keywords": [
-    "CAD", "CSG", "CNC", "solid modelling", "3d printing"
+    "CAM",
+    "3dprinting",
+    "octoprint",
+    "shapeways",
+    "cura",
+    "3d printing",
+    "digital fabrication"
   ],
   "dependencies": {
-    "noflo/noflo": "*"
+    "noflo/noflo": "*",
+    "visionmedia/superagent": "*"
   },
   "scripts": [
+    "components/ConnectService.coffee",
+    "components/Octoprint.coffee"
   ],
   "json": [
     "component.json"
@@ -18,6 +27,8 @@
   "noflo": {
     "icon": "comments",
     "components": {
+      "ConnectService": "components/ConnectService.coffee",
+      "Octoprint": "components/Octoprint.coffee"
     }
   }
 }

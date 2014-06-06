@@ -56,7 +56,6 @@ module.exports = ->
   @loadNpmTasks 'grunt-contrib-coffee'
 
   # Grunt plugins used for testing
-  @loadNpmTasks 'grunt-contrib-connect'
   @loadNpmTasks 'grunt-contrib-watch'
   @loadNpmTasks 'grunt-cafe-mocha'
   @loadNpmTasks 'grunt-mocha-phantomjs'
@@ -75,7 +74,6 @@ module.exports = ->
       @task.run 'cafemocha'
     if target is 'all' or target is 'browser'
       @task.run 'coffee'
-      @task.run 'connect'
       @task.run 'mocha_phantomjs'
 
   @registerTask 'default', ['test']

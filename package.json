@@ -8,7 +8,8 @@
     "url": "git://github.com/jonnor/noflo-3dprint.git"
   },
   "dependencies": {
-    "noflo": "~0.5.3"
+    "noflo": "~0.5.3",
+    "superagent": "^0.18.0"
   },
   "devDependencies": {
     "grunt": "~0.4.1",
@@ -26,6 +27,8 @@
   "noflo": {
     "icon": "comments",
     "components": {
+      "ConnectService": "components/ConnectService.coffee",
+      "Octoprint": "components/Octoprint.coffee"
     }
   }
 }
