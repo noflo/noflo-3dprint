@@ -19,7 +19,8 @@
   },
   "scripts": [
     "components/ConnectService.coffee",
-    "components/Octoprint.coffee"
+    "components/Octoprint.coffee",
+    "index.js"
   ],
   "json": [
     "component.json"
