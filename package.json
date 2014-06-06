@@ -1,6 +1,6 @@
 {
   "name": "noflo-3dprint",
-  "description": "NoFlo components for CAD",
+  "description": "3d printing interfacing components for NoFlo",
   "version": "0.0.1",
   "author": "Jon Nordby <jononor@gmail.com>",
   "repository": {
