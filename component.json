@@ -1,0 +1,23 @@
+{
+  "name": "noflo-3dprint",
+  "description": "3d printing interfacing components for NoFlo",
+  "author": "Jon Nordby <jononor@gmail.com>",
+  "repo": "jonnor/noflo-3dprint",
+  "version": "0.0.1",
+  "keywords": [
+    "CAD", "CSG", "CNC", "solid modelling", "3d printing"
+  ],
+  "dependencies": {
+    "noflo/noflo": "*"
+  },
+  "scripts": [
+  ],
+  "json": [
+    "component.json"
+  ],
+  "noflo": {
+    "icon": "comments",
+    "components": {
+    }
+  }
+}

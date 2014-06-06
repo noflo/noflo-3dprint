@@ -1,0 +1,31 @@
+{
+  "name": "noflo-3dprint",
+  "description": "NoFlo components for CAD",
+  "version": "0.0.1",
+  "author": "Jon Nordby <jononor@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jonnor/noflo-3dprint.git"
+  },
+  "dependencies": {
+    "noflo": "~0.5.3"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-coffee": "~0.6.6",
+    "grunt-coffeelint": "~0.0.6",
+    "grunt-cafe-mocha": "~0.1.2",
+    "chai": "~1.5.0",
+    "mocha": "~1.9.0",
+    "grunt-mocha-phantomjs": "~0.2.2",
+    "grunt-contrib-uglify": "~0.2.0",
+    "grunt-contrib-watch": "~0.3.1",
+    "grunt-noflo-manifest": "^0.1.4",
+    "grunt-noflo-browser": "^0.1.1"
+  },
+  "noflo": {
+    "icon": "comments",
+    "components": {
+    }
+  }
+}
