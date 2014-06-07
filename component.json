@@ -20,7 +20,8 @@
   "scripts": [
     "components/ConnectService.coffee",
     "components/Octoprint.coffee",
-    "index.js"
+    "index.js",
+    "components/PrintHeadCommand.coffee"
   ],
   "json": [
     "component.json"
@@ -29,7 +30,8 @@
     "icon": "comments",
     "components": {
       "ConnectService": "components/ConnectService.coffee",
-      "Octoprint": "components/Octoprint.coffee"
+      "Octoprint": "components/Octoprint.coffee",
+      "PrintHeadCommand": "components/PrintHeadCommand.coffee"
     }
   }
 }

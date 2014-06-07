@@ -28,7 +28,8 @@
     "icon": "comments",
     "components": {
       "ConnectService": "components/ConnectService.coffee",
-      "Octoprint": "components/Octoprint.coffee"
+      "Octoprint": "components/Octoprint.coffee",
+      "PrintHeadCommand": "components/PrintHeadCommand.coffee"
     }
   }
 }
