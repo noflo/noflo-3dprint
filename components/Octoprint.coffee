@@ -9,7 +9,7 @@ exports.getComponent = ->
     d = c.description
     if d.url? and d.apikey?
       c.outPorts.out.send d
-      c.outPorts.disconnect()
+      c.outPorts.out.disconnect()
 
   c.outPorts.add 'out'
 
