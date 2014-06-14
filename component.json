@@ -23,7 +23,8 @@
     "index.js",
     "components/PrintHeadCommand.coffee",
     "components/CuraServer.coffee",
-    "components/Slice.coffee"
+    "components/Slice.coffee",
+    "components/UploadFile.coffee"
   ],
   "json": [
     "component.json"
@@ -35,7 +36,8 @@
       "CuraServer": "components/CuraServer.coffee",
       "Octoprint": "components/Octoprint.coffee",
       "PrintHeadCommand": "components/PrintHeadCommand.coffee",
-      "Slice": "components/Slice.coffee"
+      "Slice": "components/Slice.coffee",
+      "UploadFile": "components/UploadFile.coffee"
     }
   }
 }
