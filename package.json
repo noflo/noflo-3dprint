@@ -31,6 +31,7 @@
       "CuraServer": "components/CuraServer.coffee",
       "Octoprint": "components/Octoprint.coffee",
       "PrintHeadCommand": "components/PrintHeadCommand.coffee",
+      "SelectFile": "components/SelectFile.coffee",
       "Slice": "components/Slice.coffee",
       "UploadFile": "components/UploadFile.coffee"
     }
