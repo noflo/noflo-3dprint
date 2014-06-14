@@ -28,8 +28,10 @@
     "icon": "comments",
     "components": {
       "ConnectService": "components/ConnectService.coffee",
+      "CuraServer": "components/CuraServer.coffee",
       "Octoprint": "components/Octoprint.coffee",
-      "PrintHeadCommand": "components/PrintHeadCommand.coffee"
+      "PrintHeadCommand": "components/PrintHeadCommand.coffee",
+      "Slice": "components/Slice.coffee"
     }
   }
 }

@@ -21,7 +21,9 @@
     "components/ConnectService.coffee",
     "components/Octoprint.coffee",
     "index.js",
-    "components/PrintHeadCommand.coffee"
+    "components/PrintHeadCommand.coffee",
+    "components/CuraServer.coffee",
+    "components/Slice.coffee"
   ],
   "json": [
     "component.json"
@@ -30,8 +32,10 @@
     "icon": "comments",
     "components": {
       "ConnectService": "components/ConnectService.coffee",
+      "CuraServer": "components/CuraServer.coffee",
       "Octoprint": "components/Octoprint.coffee",
-      "PrintHeadCommand": "components/PrintHeadCommand.coffee"
+      "PrintHeadCommand": "components/PrintHeadCommand.coffee",
+      "Slice": "components/Slice.coffee"
     }
   }
 }
