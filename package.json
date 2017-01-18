@@ -16,17 +16,17 @@
     "superagent": "^3.3.2"
   },
   "devDependencies": {
-    "grunt": "~1.0.1",
-    "grunt-contrib-coffee": "~1.0.0",
-    "grunt-coffeelint": "~0.0.16",
-    "grunt-cafe-mocha": "~0.1.2",
     "chai": "~3.5.0",
-    "mocha": "~3.2.0",
-    "grunt-mocha-phantomjs": "~4.0.0",
+    "grunt": "~1.0.1",
+    "grunt-coffeelint": "~0.0.16",
+    "grunt-contrib-coffee": "~1.0.0",
     "grunt-contrib-uglify": "~2.0.0",
     "grunt-contrib-watch": "~1.0.0",
+    "grunt-mocha-phantomjs": "~4.0.0",
+    "grunt-mocha-test": "^0.13.2",
+    "grunt-noflo-browser": "^1.1.4",
     "grunt-noflo-manifest": "^0.1.12",
-    "grunt-noflo-browser": "^1.1.4"
+    "mocha": "~3.2.0"
   },
   "noflo": {
     "icon": "comments",
