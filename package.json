@@ -3,26 +3,34 @@
   "description": "3d printing interfacing components for NoFlo",
   "version": "0.0.1",
   "author": "Jon Nordby <jononor@gmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "noflo"
+  ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/jonnor/noflo-3dprint.git"
+    "url": "git://github.com/noflo/noflo-3dprint.git"
   },
   "dependencies": {
-    "noflo": "~0.5.3",
-    "superagent": "^0.18.0"
+    "noflo": "0.x >= 0.5",
+    "superagent": "^3.3.2"
   },
   "devDependencies": {
-    "grunt": "~0.4.1",
-    "grunt-contrib-coffee": "~0.6.6",
-    "grunt-coffeelint": "~0.0.6",
-    "grunt-cafe-mocha": "~0.1.2",
-    "chai": "~1.5.0",
-    "mocha": "~1.9.0",
-    "grunt-mocha-phantomjs": "~0.2.2",
-    "grunt-contrib-uglify": "~0.2.0",
-    "grunt-contrib-watch": "~0.3.1",
-    "grunt-noflo-manifest": "^0.1.4",
-    "grunt-noflo-browser": "^0.1.1"
+    "chai": "~3.5.0",
+    "coffee-loader": "^0.7.2",
+    "coffee-script": "^1.12.2",
+    "fbp-loader": "^0.1.1",
+    "grunt": "~1.0.1",
+    "grunt-coffeelint": "~0.0.16",
+    "grunt-contrib-coffee": "~1.0.0",
+    "grunt-contrib-uglify": "~2.0.0",
+    "grunt-contrib-watch": "~1.0.0",
+    "grunt-mocha-phantomjs": "~4.0.0",
+    "grunt-mocha-test": "^0.13.2",
+    "grunt-noflo-browser": "^1.1.4",
+    "grunt-noflo-manifest": "^0.1.12",
+    "json-loader": "^0.5.4",
+    "mocha": "~3.2.0"
   },
   "noflo": {
     "icon": "comments",
@@ -35,5 +43,8 @@
       "Slice": "components/Slice.coffee",
       "UploadFile": "components/UploadFile.coffee"
     }
+  },
+  "scripts": {
+    "test": "grunt test"
   }
 }
