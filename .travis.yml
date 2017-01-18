@@ -1,5 +1,13 @@
 language: node_js
 node_js:
-  - '4.6'
+- '4.6'
 before_script:
-  - npm install -g grunt-cli
+- npm install -g grunt-cli
+deploy:
+  provider: npm
+  email: henri.bergius@iki.fi
+  api_key:
+    secure: IQgP43eNzAviGao31jQ85LSs+llYz1FPeskIvjT9dDDEV3SMsdUhTbmGVDunDAqcNk00p6HBs/ath/8KbHfqc4Dkhc3eXnpVHKaYvRdOafHEO3JCCiuNnoOJk13MiZ93Fb/8JgWx2qE++6ZYjb9aPcefNiu1IGMlkkAxv9Nt1Xk=
+  on:
+    tags: true
+    repo: noflo/noflo-3dprint
