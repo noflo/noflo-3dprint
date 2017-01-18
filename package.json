@@ -43,5 +43,8 @@
       "Slice": "components/Slice.coffee",
       "UploadFile": "components/UploadFile.coffee"
     }
+  },
+  "scripts": {
+    "test": "grunt test"
   }
 }
